@@ -1,0 +1,270 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content %}
+
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Bilal Latif Ozdemir</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{{ url_for('static', filename='assets/img/me_linkedin.jpg') }}" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Certifications</a></li>
+                </ul>
+            </div>
+        </nav>
+
+<!-- Page Content-->
+<div class="container-fluid p-0">
+    <!-- About-->
+    <section class="resume-section" id="about">
+        <div class="resume-section-content">
+            <h1 class="mb-0">
+                Bilal Latif
+                <span class="text-surnamy">Ozdemir</span>
+            </h1>
+            <div class="subheading mb-5">
+                Izmir, Turkey
+                <a href="mailto:bilallozdemir@outlook.com">bilallozdemir@outlook.com</a>
+            </div>
+            <p class="lead mb-5">Hi,
+                <br>Learning things around data is my passion. I'm trying to search/read the theoretical part of ml and
+                learn software tools (especially around python) to make my analysis' impressive end to end.
+
+                <br>Finishing my projects end to end is my main goal. I'm good at this (from raw data to user friendly
+                dashboard / interface fed by machine learning algorithms) and I like to improve my skils.
+            </p>
+
+            <br>My focus at the moment is:
+            <ul>
+                <li>Deep learning (especially CNN ), </li>
+                <li>Image prossessing,</li>
+                <li>Data Engineering tools.</li>
+            </ul>
+
+            <p class="lead mb-5">I'm someone open minded, easy to communicate, and eager to learn. I am open to share
+                questions, suggestions and ideas about data analysis, statistics, machine learning, algorithms, python
+                and more.
+
+                <br>If you need help about these topics or if you wanna collaboration on a hobby project (like kaggle
+                projects), message me.
+            </p>
+            <div class="social-icons">
+                <a class="social-icon" href="https://www.linkedin.com/in/bilallatifozdemir/" target="_blank"
+                    data-bs-toggle="tooltip" data-bs-placement="top" title="linkedin"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a class="social-icon" href="https://github.com/bilative" target="_blank" data-bs-toggle="tooltip"
+                    data-bs-placement="top" title="github"><i class="fab fa-github"></i></a>
+                <a class="social-icon" href="https://twitter.com/bilallozdemir" target="_blank" data-bs-toggle="tooltip"
+                    data-bs-placement="top" title="twitter"><i class="fab fa-twitter"></i></a>
+                <a class="social-icon" href="https://sisterslab.co/yazar/bilal-ozdemir/" target="_blank"
+                    data-bs-toggle="tooltip" data-bs-placement="top" title="sisterslab"><i
+                        class="fas fa-pencil-alt"></i></a>
+                <a class="social-icon" href="/writings/x-days-of-code" target="_blank"
+                    data-bs-toggle="tooltip" data-bs-placement="top" title="x-days-of-code"><i
+                        class="fas fa-laptop-code"></i></a>
+                <a class="social-icon" href="/writings/weekly-me" target="_blank"
+                    data-bs-toggle="tooltip" data-bs-placement="top" title="weekly-me"><i
+                        class="fas fa-calendar-week"></i></a>
+
+
+
+            </div>
+        </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Projects-->
+    <section class="resume-section" id="projects">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Projects</h2>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0"> Twitter Earthquake Bot</h3>
+                    <div class="subheading mb-3"><a href="https://github.com/bilative/twitter-earthquake-bot"
+                            target="_blank">project-page</a></div>
+                    <p>I used web scraping and twitter API for this app. This app checks website of Kandilli Rasathanesi
+                        every minute, and tweets it if there is an earthquake greater than 4.</p>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">Hobby Project</span></div>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0"> End to End Data Science Project </h3>
+                    <div class="subheading mb-3"><a href="https://github.com/bilative/weekend-end-to-end-ds-project"
+                            target="_blank">project-page</a></div>
+                    <p>I combined multiple concepts into an application with this project.
+                        <br>Used concepts in this project are:
+                    <ul>
+                        <li>Web Scraping, </li>
+                        <li>Data Analyzing,</li>
+                        <li>Storing in DB,</li>
+                        <li>Rest API,</li>
+                        <li>Interactive Dashboard,</li>
+                        <li>Prediction Interface,</li>
+                        <li>Deploying By Cloud,</li>
+                    </ul>
+                    Technologies that I used in this project were Python, Docker, Linux Cloud Machine.
+                    I made this application less than 2 days at weekend.
+                    </p>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">Hobby Project</span></div>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0"> Book Store Db and User Interface</h3>
+                    <div class="subheading mb-3"><a href="https://github.com/bilative/bookstore-db-hw"
+                            target="_blank">project-page</a></div>
+                    <p>Actually this was my homework project on Master Program. I made this app for Database Management
+                        Lesson.</p>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">Hobby Project</span></div>
+            </div>
+        </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Experience-->
+    <section class="resume-section" id="experience">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Experience</h2>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">Data Scientist</h3>
+                    <div class="subheading mb-3">Wiser Tech Innovation and Technology Investments Inc.</div>
+                    <p>In general, I developed anomaly detection and error detection analyzes / applications from the
+                        sensor data collected with IoT devices from the machines in the R&D process. I presented the
+                        outputs fed by machine learning models running on the live system with interactive multipage
+                        dashboards. I have been starting my analysis from sql and continuing it to the end user.</p>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">October 2020 - Present</span></div>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">Finance Intern</h3>
+                    <div class="subheading mb-3">Hugo Boss</div>
+                    <p>It was an experience where I observed the applications of finance and statistics together,
+                        learned and discovered how to use my competencies. I have benefited from an intersection of
+                        these two fields by performing statistical tests and statistical analysis.</p>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">August 2018 - September 2018</span></div>
+            </div>
+        </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Education-->
+    <section class="resume-section" id="education">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Education</h2>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">Ege University</h3>
+                    <div class="subheading mb-3">Master of Science</div>
+                    <div>Information Technologies - International Computer Institude</div>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">February 2021 - December 2024</span></div>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">Dokuz Eylul University</h3>
+                    <div class="subheading mb-3">Bachelor of Science</div>
+                    <div>Statistics - Faculty of Science</div>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">September 2014 - June 2019</span></div>
+            </div>
+        </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Skills-->
+    <section class="resume-section" id="skills">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Skills</h2>
+            <div class="subheading mb-3">Programming Languages & Tools</div>
+            <ul class="list-inline dev-icons">
+                <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                <li class="list-inline-item"><i class="fab fa-r-project"></i></li>
+                <li class="list-inline-item"><i class="fab fa-docker"></i></li>
+                <li class="list-inline-item"><i class="fab fa-linux"></i></li>
+            </ul>
+            <div class="subheading mb-3">Workflow</div>
+            <ul class="fa-ul mb-0">
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Data Science
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Statistical Analysis
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Statistical Tests
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Data Visualization
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Image Processing
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Deep Learning
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    SQL (SQL Server, Postgres, Oracle)
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    NoSQL (MongoDB, Cassandra)
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Web Scraping
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Python, R, Docker, Linux, Minitab
+                </li>
+            </ul>
+        </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Interests-->
+    <section class="resume-section" id="interests">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Interests</h2>
+            <p>Besides being a Data Scientist, I am a very versatile person. I like to make handmade products by showing
+                effort, for example, I made my computer desk, coffee table, and bookshelf myself.</p>
+            <p class="mb-0"> I also like to make small figurines or table decorations, I have a mega chess soldier that
+                I made by combining chess pieces. Besides these, I love to read books that make me think, and I also
+                love to make minimalist drawings.</p>
+        </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Awards-->
+    <section class="resume-section" id="awards">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Awards & Certifications</h2>
+            <ul class="fa-ul mb-0">
+                <li>
+                    <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                    One of the 3 inventors of the artificial intelligence patent in the application process (about
+                    Anomaly Detection)
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                    Data Engineering & Big Data Bootcamp
+                </li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+{% endblock %}
